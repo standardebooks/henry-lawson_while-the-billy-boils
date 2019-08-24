@@ -45,3 +45,12 @@ section > header [epub|type~="epigraph"]{
 	text-align: left;
 }
 /* End epigraphs in section headers */
+
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+.signature{
+	font-variant: small-caps;
+}
