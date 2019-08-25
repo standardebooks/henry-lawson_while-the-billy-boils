@@ -5,12 +5,16 @@
 		<dc:date>1900-01-01T00:00:00Z</dc:date>
 		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
-		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
-		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org</meta>
-		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
-		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
-		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
+		<dc:publisher id="publisher-1">Standard Ebooks</dc:publisher>
+		<meta property="file-as" refines="#publisher-1">Standard Ebooks</meta>
+		<meta property="se:url.homepage" refines="#publisher-1">https://standardebooks.org</meta>
+		<meta property="role" refines="#publisher-1" scheme="marc:relators">bkd</meta>
+		<meta property="role" refines="#publisher-1" scheme="marc:relators">mdc</meta>
+		<meta property="role" refines="#publisher-1" scheme="marc:relators">pbl</meta>
+		<dc:publisher id="publisher-2">Angus &amp; Robertson</dc:publisher>
+		<meta property="file-as" refines="#publisher-2">Angus &amp; Robertson</meta>
+		<meta property="se:url.homepage" refines="#publisher-2">https://www.angusrobertson.com.au</meta>
+		<meta property="role" refines="#publisher-2" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
 		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com</meta>
@@ -38,36 +42,40 @@
 		<meta property="term" refines="#subject-2">sh2008103514</meta>
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh2008114320</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description"><![CDATA[
-			LONG_DESCRIPTION
-		]]></meta>
-		<dc:language>en-GB</dc:language>
+		<meta property="se:subject">Shorts</meta>
+		<dc:description id="description">A short story collection based on Australian colonial life in 1890s.</dc:description>
+		<meta id="long-description" property="se:long-description" refines="#description">
+			&lt;p&gt;&lt;i&gt;While the Billy Boils&lt;/i&gt; collates Henry Lawson’s most well known short stories of the 1890s, originally published in a variety of Australian and New Zealand newspapers⁠—most prominently the Sydney &lt;i&gt;Bulletin&lt;/i&gt;. Lawson presents a satirical and sometimes emotional study of frontier life in late colonial Australia, and the characters living in it.&lt;/p&gt;
+		</meta>
+		<dc:language>en-AU</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/7144</dc:source>
-		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
+		<dc:source>https://archive.org/details/whilebillyboils00lawsuoft</dc:source>
+		<dc:source>https://en.wikisource.org/wiki/While_the_Billy_Boils</dc:source>
+		<meta property="se:production-notes">
+			The text is mostly based on the Gutenberg transcription of the 1896 original, but I have changed it based on scans of the later 1913 edition. This edition adds additional emphasis and italics, but also changes character names and some of the stories in small ways. However, I have reverted the change of replacing every third-person occurance of “goanna” with “iguana.”
+		</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/While_the_Billy_Boils</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/henry-lawson_while-the-billy-boils</meta>
 		<dc:creator id="author">Henry Lawson</dc:creator>
-		<meta property="file-as" refines="#author">AUTHOR_SORT</meta>
-		<meta property="se:name.person.full-name" refines="#author">AUTHOR_FULL_NAME</meta>
+		<meta property="file-as" refines="#author">Lawson, Henry</meta>
+		<meta property="se:name.person.full-name" refines="#author">Henry Archibald Hertzberg Lawson</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Henry_Lawson</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">AUTHOR_NACOAF_URL</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n80036700</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URL</meta>
+		<dc:contributor id="artist">Arthur Streeton</dc:contributor>
+		<meta property="file-as" refines="#artist">Streeton, Arthur</meta>
+		<meta property="se:name.person.full-name" refines="#author">Arthur Ernest Streeton</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Arthur_Streeton</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/n89664455</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">Geoffrey Cowling</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Cowling, Geoffrey</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Stephen Gregoratto</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Gregoratto, Stephen</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://www.sgregoratto.me</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -82,14 +90,122 @@
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
+		<item href="text/a-campfire-yarn.xhtml" id="a-campfire-yarn.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/a-day-on-a-selection.xhtml" id="a-day-on-a-selection.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/a-visit-of-condolence.xhtml" id="a-visit-of-condolence.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/across-the-straits.xhtml" id="across-the-straits.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/an-echo-from-the-old-bark-school.xhtml" id="an-echo-from-the-old-bark-school.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/an-old-mate-of-your-fathers.xhtml" id="an-old-mate-of-your-fathers.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/an-unfinished-love-story.xhtml" id="an-unfinished-love-story.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/another-of-mitchells-plans-for-the-future.xhtml" id="another-of-mitchells-plans-for-the-future.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/arvie-aspinalls-alarm-clock.xhtml" id="arvie-aspinalls-alarm-clock.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/baldy-thompson.xhtml" id="baldy-thompson.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/board-and-residence.xhtml" id="board-and-residence.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/bogg-of-geebung.xhtml" id="bogg-of-geebung.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/brummy-usen.xhtml" id="brummy-usen.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/coming-across.xhtml" id="coming-across.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/dossing-out-and-camping.xhtml" id="dossing-out-and-camping.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/drifted-back.xhtml" id="drifted-back.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/enter-mitchell.xhtml" id="enter-mitchell.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/for-auld-lang-syne.xhtml" id="for-auld-lang-syne.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/going-blind.xhtml" id="going-blind.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/halftitle.xhtml" id="halftitle.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/hed-come-back.xhtml" id="hed-come-back.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/his-colonial-oath.xhtml" id="his-colonial-oath.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/his-country-after-all.xhtml" id="his-country-after-all.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/his-fathers-mate.xhtml" id="his-fathers-mate.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/hungerford.xhtml" id="hungerford.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/in-a-dry-season.xhtml" id="in-a-dry-season.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/in-a-wet-season.xhtml" id="in-a-wet-season.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/joness-alley.xhtml" id="joness-alley.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/macquaries-mate.xhtml" id="macquaries-mate.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/mitchell-a-character-sketch.xhtml" id="mitchell-a-character-sketch.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/mitchell-doesnt-believe-in-the-sack.xhtml" id="mitchell-doesnt-believe-in-the-sack.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/on-the-edge-of-a-plain.xhtml" id="on-the-edge-of-a-plain.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/our-pipes.xhtml" id="our-pipes.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/preface.xhtml" id="preface.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/rats.xhtml" id="rats.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/remailed.xhtml" id="remailed.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/settling-on-the-land.xhtml" id="settling-on-the-land.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/she-wouldnt-speak.xhtml" id="she-wouldnt-speak.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/shooting-the-moon.xhtml" id="shooting-the-moon.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/some-day.xhtml" id="some-day.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/steelman.xhtml" id="steelman.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/steelmans-pupil.xhtml" id="steelmans-pupil.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/stiffner-and-jim-thirdly-bill.xhtml" id="stiffner-and-jim-thirdly-bill.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/stragglers.xhtml" id="stragglers.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/that-there-dog-o-mine.xhtml" id="that-there-dog-o-mine.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-bush-undertaker.xhtml" id="the-bush-undertaker.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-drovers-wife.xhtml" id="the-drovers-wife.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-geological-spieler.xhtml" id="the-geological-spieler.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-man-who-forgot.xhtml" id="the-man-who-forgot.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-shearing-of-the-cooks-dog.xhtml" id="the-shearing-of-the-cooks-dog.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-story-of-malachi.xhtml" id="the-story-of-malachi.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-union-buries-its-dead.xhtml" id="the-union-buries-its-dead.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/two-dogs-and-a-fence.xhtml" id="two-dogs-and-a-fence.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/when-the-sun-went-down.xhtml" id="when-the-sun-went-down.xhtml" media-type="application/xhtml+xml"/>
 	</manifest>
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
+		<itemref idref="preface.xhtml"/>
+		<itemref idref="halftitle.xhtml"/>
+		<itemref idref="an-old-mate-of-your-fathers.xhtml"/>
+		<itemref idref="settling-on-the-land.xhtml"/>
+		<itemref idref="enter-mitchell.xhtml"/>
+		<itemref idref="stiffner-and-jim-thirdly-bill.xhtml"/>
+		<itemref idref="when-the-sun-went-down.xhtml"/>
+		<itemref idref="the-man-who-forgot.xhtml"/>
+		<itemref idref="hungerford.xhtml"/>
+		<itemref idref="a-campfire-yarn.xhtml"/>
+		<itemref idref="his-country-after-all.xhtml"/>
+		<itemref idref="a-day-on-a-selection.xhtml"/>
+		<itemref idref="that-there-dog-o-mine.xhtml"/>
+		<itemref idref="going-blind.xhtml"/>
+		<itemref idref="arvie-aspinalls-alarm-clock.xhtml"/>
+		<itemref idref="stragglers.xhtml"/>
+		<itemref idref="the-union-buries-its-dead.xhtml"/>
+		<itemref idref="on-the-edge-of-a-plain.xhtml"/>
+		<itemref idref="in-a-dry-season.xhtml"/>
+		<itemref idref="hed-come-back.xhtml"/>
+		<itemref idref="another-of-mitchells-plans-for-the-future.xhtml"/>
+		<itemref idref="steelman.xhtml"/>
+		<itemref idref="drifted-back.xhtml"/>
+		<itemref idref="remailed.xhtml"/>
+		<itemref idref="mitchell-doesnt-believe-in-the-sack.xhtml"/>
+		<itemref idref="shooting-the-moon.xhtml"/>
+		<itemref idref="his-fathers-mate.xhtml"/>
+		<itemref idref="an-echo-from-the-old-bark-school.xhtml"/>
+		<itemref idref="the-shearing-of-the-cooks-dog.xhtml"/>
+		<itemref idref="dossing-out-and-camping.xhtml"/>
+		<itemref idref="across-the-straits.xhtml"/>
+		<itemref idref="the-drovers-wife.xhtml"/>
+		<itemref idref="steelmans-pupil.xhtml"/>
+		<itemref idref="an-unfinished-love-story.xhtml"/>
+		<itemref idref="board-and-residence.xhtml"/>
+		<itemref idref="his-colonial-oath.xhtml"/>
+		<itemref idref="some-day.xhtml"/>
+		<itemref idref="a-visit-of-condolence.xhtml"/>
+		<itemref idref="in-a-wet-season.xhtml"/>
+		<itemref idref="rats.xhtml"/>
+		<itemref idref="mitchell-a-character-sketch.xhtml"/>
+		<itemref idref="the-bush-undertaker.xhtml"/>
+		<itemref idref="our-pipes.xhtml"/>
+		<itemref idref="coming-across.xhtml"/>
+		<itemref idref="the-story-of-malachi.xhtml"/>
+		<itemref idref="two-dogs-and-a-fence.xhtml"/>
+		<itemref idref="joness-alley.xhtml"/>
+		<itemref idref="brummy-usen.xhtml"/>
+		<itemref idref="bogg-of-geebung.xhtml"/>
+		<itemref idref="she-wouldnt-speak.xhtml"/>
+		<itemref idref="the-geological-spieler.xhtml"/>
+		<itemref idref="macquaries-mate.xhtml"/>
+		<itemref idref="baldy-thompson.xhtml"/>
+		<itemref idref="for-auld-lang-syne.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
