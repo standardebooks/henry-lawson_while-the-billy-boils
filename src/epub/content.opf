@@ -5,16 +5,12 @@
 		<dc:date>2019-08-26T20:28:09Z</dc:date>
 		<meta property="dcterms:modified">2019-08-26T20:28:09Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
-		<dc:publisher id="publisher-1">Standard Ebooks</dc:publisher>
-		<meta property="file-as" refines="#publisher-1">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher-1">https://standardebooks.org</meta>
-		<meta property="role" refines="#publisher-1" scheme="marc:relators">bkd</meta>
-		<meta property="role" refines="#publisher-1" scheme="marc:relators">mdc</meta>
-		<meta property="role" refines="#publisher-1" scheme="marc:relators">pbl</meta>
-		<dc:publisher id="publisher-2">Angus &amp; Robertson</dc:publisher>
-		<meta property="file-as" refines="#publisher-2">Angus &amp; Robertson</meta>
-		<meta property="se:url.homepage" refines="#publisher-2">https://www.angusrobertson.com.au</meta>
-		<meta property="role" refines="#publisher-2" scheme="marc:relators">wpr</meta>
+		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
+		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
+		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org</meta>
+		<meta property="se:role" refines="#publisher" scheme="marc:relators">bkd</meta>
+		<meta property="se:role" refines="#publisher" scheme="marc:relators">mdc</meta>
+		<meta property="se:role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
 		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com</meta>
@@ -62,6 +58,10 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Henry_Lawson</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n80036700</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<dc:contributor id="writer-of-preface">Angus &amp; Robertson</dc:contributor>
+		<meta property="file-as" refines="#writer-of-preface">Angus &amp; Robertson</meta>
+		<meta property="se:url.homepage" refines="#writer-of-preface">https://www.angusrobertson.com.au</meta>
+		<meta property="role" refines="#writer-of-preface" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">Arthur Streeton</dc:contributor>
 		<meta property="file-as" refines="#artist">Streeton, Arthur</meta>
 		<meta property="se:name.person.full-name" refines="#author">Arthur Ernest Streeton</meta>
@@ -75,11 +75,11 @@
 		<meta property="file-as" refines="#producer-1">Gregoratto, Stephen</meta>
 		<meta property="se:url.homepage" refines="#producer-1">https://www.sgregoratto.me</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
-		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
-		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
-		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
-		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
-		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<meta property="se:role" refines="#producer-1" scheme="marc:relators">blw</meta>
+		<meta property="se:role" refines="#producer-1" scheme="marc:relators">cov</meta>
+		<meta property="se:role" refines="#producer-1" scheme="marc:relators">mrk</meta>
+		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
+		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
 		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
