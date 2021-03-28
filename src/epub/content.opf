@@ -56,7 +56,7 @@
 		<meta property="file-as" refines="#author">Lawson, Henry</meta>
 		<meta property="se:name.person.full-name" refines="#author">Henry Archibald Hertzberg Lawson</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Henry_Lawson</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n80036700</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n80036700</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="writer-of-preface">Angus &amp; Robertson</dc:contributor>
 		<meta property="file-as" refines="#writer-of-preface">Angus &amp; Robertson</meta>
@@ -66,7 +66,7 @@
 		<meta property="file-as" refines="#artist">Streeton, Arthur</meta>
 		<meta property="se:name.person.full-name" refines="#author">Arthur Ernest Streeton</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Arthur_Streeton</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/n89664455</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n89664455</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Geoffrey Cowling</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Cowling, Geoffrey</meta>
