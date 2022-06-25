@@ -38,6 +38,7 @@
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh2008114320</meta>
 		<meta property="se:subject">Shorts</meta>
+		<meta property="se:is-a-collection">true</meta>
 		<dc:description id="description">A short story collection based on Australian colonial life in 1890s.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;While the Billy Boils&lt;/i&gt; collates &lt;a href="https://standardebooks.org/ebooks/henry-lawson"&gt;Henry Lawson’s&lt;/a&gt; most well known short stories of the 1890s, originally published in a variety of Australian and New Zealand newspapers—most prominently the Sydney &lt;i&gt;Bulletin&lt;/i&gt;. Lawson presents a satirical and sometimes emotional study of frontier life in late colonial Australia, and the characters living in it.&lt;/p&gt;
