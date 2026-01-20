@@ -49,7 +49,7 @@
 		<dc:source>https://archive.org/details/whilebillyboils00lawsuoft</dc:source>
 		<dc:source>https://en.wikisource.org/wiki/While_the_Billy_Boils</dc:source>
 		<meta property="se:production-notes">The text is mostly based on the Gutenberg transcription of the 1896 original, but I have changed it based on scans of the later 1913 edition. This edition adds additional emphasis and italics, but also changes character names and some of the stories in small ways. However, I have reverted the change of replacing every third-person occurance of “goanna” with “iguana.”</meta>
-		<meta property="se:word-count">85518</meta>
+		<meta property="se:word-count">83343</meta>
 		<meta property="se:reading-ease.flesch">78.18</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/While_the_Billy_Boils</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/henry-lawson_while-the-billy-boils</meta>
