@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/henry-lawson/while-the-billy-boils</dc:identifier>
 		<dc:date>2019-08-26T20:28:09Z</dc:date>
 		<meta property="dcterms:modified">2019-08-26T20:28:09Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -38,8 +39,8 @@
 		<meta property="term" refines="#subject-2">sh2008103514</meta>
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh2008114320</meta>
-		<meta property="se:subject">Shorts</meta>
-		<meta property="se:is-a-collection">true</meta>
+		<meta property="schema:genre">Shorts</meta>
+		<meta property="schema:additionalType">http://schema.org/Collection</meta>
 		<dc:description id="description">A short story collection based on Australian colonial life in 1890s.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;While the Billy Boils&lt;/i&gt; collates &lt;a href="https://standardebooks.org/ebooks/henry-lawson"&gt;Henry Lawson’s&lt;/a&gt; most well known short stories of the 1890s, originally published in a variety of Australian and New Zealand newspapers—most prominently the Sydney &lt;i&gt;Bulletin&lt;/i&gt;. Lawson presents a satirical and sometimes emotional study of frontier life in late colonial Australia, and the characters living in it.&lt;/p&gt;
@@ -48,33 +49,34 @@
 		<dc:source>https://www.gutenberg.org/ebooks/7144</dc:source>
 		<dc:source>https://archive.org/details/whilebillyboils00lawsuoft</dc:source>
 		<dc:source>https://en.wikisource.org/wiki/While_the_Billy_Boils</dc:source>
-		<meta property="se:production-notes">The text is mostly based on the Gutenberg transcription of the 1896 original, but I have changed it based on scans of the later 1913 edition. This edition adds additional emphasis and italics, but also changes character names and some of the stories in small ways. However, I have reverted the change of replacing every third-person occurance of “goanna” with “iguana.”</meta>
-		<meta property="se:word-count">83343</meta>
-		<meta property="se:reading-ease.flesch">78.18</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/While_the_Billy_Boils</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/henry-lawson_while-the-billy-boils</meta>
+		<meta property="schema:wordCount">83343</meta>
+		<meta property="schema:educationalLevel">78.18</meta>
+		<link href="https://en.wikipedia.org/wiki/While_the_Billy_Boils" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/henry-lawson_while-the-billy-boils" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Henry Lawson</dc:creator>
 		<meta property="file-as" refines="#author">Lawson, Henry</meta>
-		<meta property="se:name.person.full-name" refines="#author">Henry Archibald Hertzberg Lawson</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Henry_Lawson</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n80036700</meta>
+		<meta property="schema:alternateName" refines="#author">Henry Archibald Hertzberg Lawson</meta>
+		<link href="https://en.wikipedia.org/wiki/Henry_Lawson" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n80036700.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="writer-of-preface">Angus &amp; Robertson</dc:contributor>
 		<meta property="file-as" refines="#writer-of-preface">Angus &amp; Robertson</meta>
-		<meta property="se:url.homepage" refines="#writer-of-preface">https://www.angusrobertson.com.au/</meta>
+		<link href="https://www.angusrobertson.com.au/" refines="#writer-of-preface" rel="schema:url"/>
 		<meta property="role" refines="#writer-of-preface" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">Arthur Streeton</dc:contributor>
 		<meta property="file-as" refines="#artist">Streeton, Arthur</meta>
-		<meta property="se:name.person.full-name" refines="#author">Arthur Ernest Streeton</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Arthur_Streeton</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n89664455</meta>
+		<meta property="schema:alternateName" refines="#author">Arthur Ernest Streeton</meta>
+		<link href="https://en.wikipedia.org/wiki/Arthur_Streeton" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n89664455.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Geoffrey Cowling</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Cowling, Geoffrey</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Stephen Gregoratto</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Gregoratto, Stephen</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://www.sgregoratto.me/</meta>
+		<link href="https://www.sgregoratto.me/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -83,7 +85,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com/</meta>
+		<link href="https://alexcabal.com/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>

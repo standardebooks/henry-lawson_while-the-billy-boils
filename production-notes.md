@@ -1,0 +1,1 @@
+The text is mostly based on the Gutenberg transcription of the 1896 original, but I have changed it based on scans of the later 1913 edition. This edition adds additional emphasis and italics, but also changes character names and some of the stories in small ways. However, I have reverted the change of replacing every third-person occurance of “goanna” with “iguana.”
