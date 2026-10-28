@@ -63,6 +63,7 @@
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="writer-of-preface">Angus &amp; Robertson</dc:contributor>
 		<meta property="file-as" refines="#writer-of-preface">Angus &amp; Robertson</meta>
+		<link href="https://en.wikipedia.org/wiki/Angus_%26_Robertson" refines="#writer-of-preface" rel="schema:sameAs"/>
 		<link href="https://www.angusrobertson.com.au/" refines="#writer-of-preface" rel="schema:url"/>
 		<meta property="role" refines="#writer-of-preface" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">Arthur Streeton</dc:contributor>
