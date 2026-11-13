@@ -51,7 +51,7 @@
 		<dc:source>https://en.wikisource.org/wiki/While_the_Billy_Boils</dc:source>
 		<meta property="schema:wordCount">83343</meta>
 		<meta property="schema:educationalLevel">78.18</meta>
-		<link href="https://en.wikipedia.org/wiki/While_the_Billy_Boils" rel="schema:sameAs"/>
+		<link href="https://en.wikipedia.org/wiki/While_the_Billy_Boils_(short_story_collection)" rel="schema:sameAs"/>
 		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
 		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
 		<link href="https://github.com/standardebooks/henry-lawson_while-the-billy-boils" refines="#vcs-repository" rel="schema:codeRepository"/>
